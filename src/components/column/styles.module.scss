@@ -1,0 +1,78 @@
+.columns {
+  @apply w-72 min-w-[18rem] rounded-sm bg-gray-200 p-2 h-fit flex flex-col gap-y-3 relative;
+
+  .cards {
+    @apply flex flex-col gap-y-3;
+  }
+
+  .columns_title {
+    @apply flex justify-between items-center;
+
+    .image {
+      @apply w-7 h-7;
+
+      > img {
+        @apply w-6 h-6;
+
+        &:hover {
+          @apply w-full h-7 bg-gray-300 rounded-md cursor-pointer;
+        }
+      }
+    }
+
+    > input {
+      @apply w-11/12 cursor-pointer rounded-sm bg-transparent px-2;
+
+      &:focus {
+        @apply block bg-white h-7;
+      }
+    }
+  }
+
+  .footer_openEl {
+    @apply flex flex-col gap-x-3;
+
+    > textarea {
+      @apply resize-none rounded-md;
+    }
+
+    .footer_footerText {
+      @apply flex items-center gap-x-3 mt-3;
+
+      > .button {
+        @apply w-20 h-8 rounded-sm text-white bg-blue-500;
+      }
+
+      > button img {
+        @apply w-4 h-4;
+      }
+    }
+  }
+
+  .footer_closeEl {
+    @apply w-full flex justify-between items-center text-gray-600;
+    &:hover {
+      @apply w-full bg-gray-200 rounded-md cursor-pointer;
+    }
+
+    .closeEl_column_1 {
+      @apply w-full h-7 flex items-center gap-x-2 pl-2;
+      &:hover {
+        @apply bg-gray-300 rounded-sm cursor-pointer;
+      }
+      > img {
+        @apply w-6 h-6;
+      }
+    }
+
+    .closeEl_column_2 {
+      @apply w-10 h-7 flex justify-center items-center;
+      &:hover {
+        @apply bg-gray-300 rounded-md cursor-pointer;
+      }
+      > img {
+        @apply w-4 h-4;
+      }
+    }
+  }
+}

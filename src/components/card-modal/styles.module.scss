@@ -1,0 +1,64 @@
+.overlay {
+  @apply fixed inset-x-0 inset-y-0 z-20 bg-black/70 pt-12 w-full overflow-scroll;
+.container {
+  @apply max-w-full w-[48rem] bg-gray-100 shadow-lg rounded-md mx-auto p-6 flex flex-col;
+
+  .outer {
+    @apply flex-1;
+    .header_list {
+      @apply flex flex-col;
+
+      .title {
+        @apply flex items-center justify-between gap-x-2;
+
+        > input {
+          @apply w-full h-8 rounded-sm pl-2;
+        }
+
+        > img {
+          @apply w-5 h-5;
+        }
+
+        .close {
+          @apply flex justify-end items-start p-0;
+          > img {
+            @apply w-4 h-4;
+          }
+        }
+      }
+      .title_footer {
+        @apply flex gap-x-2 ml-9 pt-3;
+
+        > button {
+          @apply underline;
+        }
+      }
+    }
+  }
+}
+  .wrapper {
+    @apply w-full flex justify-between;
+    .row {
+      @apply w-3/4 flex flex-col gap-y-4;
+      .notification {
+        @apply flex text-start ml-6 mt-8 gap-x-4;
+
+        .not_text {
+          @apply flex flex-col;
+
+          > span {
+            @apply text-sm;
+          }
+
+          > .notification_button {
+            @apply w-24 h-8 rounded bg-gray-200 flex justify-between items-center px-3;
+
+            > img {
+              @apply w-4 h-4;
+            }
+          }
+        }
+      }
+    }
+  }
+}

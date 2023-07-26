@@ -1,0 +1,25 @@
+.card {
+  @apply flex justify-between items-center bg-white rounded-md pl-2 pr-1 py-1 shadow-sm cursor-pointer;
+
+  &:hover {
+    @apply bg-gray-100;
+  }
+
+  .card_opened {
+    button > img {
+      @apply w-5 h-5;
+    }
+  }
+
+  .button_pencil {
+    @apply hidden w-6 h-6;
+
+    > img {
+      @apply w-3 h-3;
+    }
+  }
+
+  &:hover > .button_pencil {
+    @apply flex justify-center items-center bg-gray-200 rounded-sm;
+  }
+}

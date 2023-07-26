@@ -1,0 +1,57 @@
+.members {
+  @apply absolute inset-x-0 bottom-64 w-80 h-auto bg-white p-3 shadow-lg rounded-sm cursor-pointer;
+
+  .members_header {
+    @apply flex items-center justify-between;
+    > h2 {
+      @apply m-auto text-gray-300;
+    }
+    .close_card {
+      @apply text-gray-300;
+      > img {
+        @apply w-4 h-4;
+      }
+
+      > img:hover {
+        @apply text-gray-500;
+      }
+    }
+  }
+  .underline {
+    @apply border-b-2 text-gray-300 mt-2;
+  }
+  .input {
+    @apply w-full h-8 rounded mt-3;
+    > input {
+      @apply w-full bg-white border-2 border-blue-500 rounded p-1;
+    }
+    input::placeholder {
+      @apply pl-2;
+    }
+    input:hover {
+      @apply bg-gray-100;
+    }
+  }
+  .members_text {
+    @apply flex flex-col mt-2 gap-y-2;
+
+    .members_item {
+      @apply flex items-center pl-2 gap-x-3;
+      > span {
+        @apply w-8 h-8 rounded-full bg-blue-300 flex justify-center items-center;
+      }
+    }
+    .members_item:hover {
+      @apply w-full h-9 bg-gray-200 rounded;
+    }
+  }
+  > h3 {
+    @apply text-gray-300 text-start mt-4;
+  }
+  .members_footer {
+    @apply w-full rounded pb-3 mt-auto;
+    > button {
+      @apply w-full h-8 mt-3 bg-gray-100 rounded;
+    }
+  }
+}

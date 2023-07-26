@@ -1,0 +1,46 @@
+.activity {
+  @apply flex flex-col gap-y-4 mt-6;
+
+  .title {
+    @apply flex justify-between;
+    > .text {
+      @apply flex items-center gap-x-4;
+      > h2 {
+        @apply font-bold text-gray-700;
+      }
+      > img {
+        @apply w-5 h-5;
+      }
+    }
+    > button {
+      @apply w-36 h-8 bg-gray-200 rounded-md;
+    }
+  }
+  .show {
+    @apply flex justify-between;
+
+    .show_save {
+      @apply w-14 h-20 rounded-sm bg-gray-200 flex flex-col items-center justify-center px-3;  // h-8
+    }
+
+    .icons {
+      @apply flex items-center gap-x-4;
+      > :hover {
+        @apply w-8 h-8 bg-gray-300;
+      }
+      > img {
+        @apply w-4 h-4;
+      }
+    }
+  }
+
+  .footer {
+    @apply flex gap-x-2 items-center m-0;
+    > span {
+      @apply flex justify-center items-center rounded-full min-w-[2rem] h-8 bg-blue-600 font-bold;
+    }
+    > button {
+      @apply w-full h-10 text-gray-500 border text-start bg-white pl-3;
+    }
+  }
+}

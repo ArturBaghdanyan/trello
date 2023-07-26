@@ -1,0 +1,95 @@
+.checklist {
+  @apply absolute inset-x-0 bottom-44 w-80 h-48 bg-white p-3 shadow-lg rounded-sm cursor-pointer;
+
+  .checklist_header {
+    @apply flex items-center justify-between;
+
+    > h2 {
+      @apply m-auto text-gray-400;
+    }
+    .close_card {
+      @apply text-gray-300;
+
+      > img {
+        @apply w-4 h-4;
+      }
+
+      > img:hover {
+        @apply text-gray-500;
+      }
+    }
+  }
+
+  .underline {
+    @apply border-b-2 text-gray-300 mt-2;
+  }
+
+  > h3 {
+    @apply text-gray-700 text-start mt-4 font-sans;
+  }
+
+  .input {
+    @apply w-full h-8 rounded mt-1;
+
+    > input {
+      @apply w-full bg-white border-2 rounded p-1;
+    }
+
+    input::placeholder {
+      @apply pl-2;
+    }
+
+    input:hover {
+      @apply bg-gray-200 border-blue-500;
+    }
+  }
+
+  .checklist_footer {
+    @apply rounded pb-3;
+
+    > button {
+      @apply w-20 h-8 mt-6 bg-blue-500 text-white rounded;
+    }
+  }
+}
+.checklist_modal {
+  @apply w-full flex gap-x-3 text-start mt-5;
+
+  .text {
+    @apply w-full h-14 rounded-sm;
+  }
+
+  .footer_text {
+    @apply flex items-center gap-x-4;
+
+    > .button_save {
+      @apply bg-blue-400 w-14 h-8 rounded flex items-center justify-center;
+    }
+
+    > .button_cancel {
+      @apply w-6 h-6;
+    }
+
+  }
+  .modal {
+    @apply absolute left-96 z-10 
+           pt-12 w-full;
+    .delete_modal {
+      @apply  max-w-full w-[20rem] bg-white shadow-lg 
+      rounded-md p-3 flex flex-col gap-y-4;
+
+    .title {
+      @apply flex justify-between;
+      > span {
+        @apply flex justify-center;
+      }
+      > button img {
+        @apply w-6 h-6;
+      }
+    }
+    .delete_button {
+      @apply w-full bg-red-300 flex justify-center items-center;
+    }
+  }
+  }
+}

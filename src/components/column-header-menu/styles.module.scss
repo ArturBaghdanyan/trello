@@ -1,0 +1,28 @@
+.menu {
+  @apply absolute top-12 left-full z-20;
+
+  .wrapper {
+    @apply max-w-full w-[20rem] bg-white shadow-lg mx-auto rounded-sm p-3
+           overflow-hidden text-gray-600 border border-slate-200;
+
+    .list_header {
+      @apply flex justify-between items-center;
+
+      > h2 {
+        @apply mx-auto text-slate-400;
+      }
+
+      > .close_button > svg {
+        @apply w-5 h-5 stroke-slate-400;
+      }
+    }
+
+    .list_actions {
+      @apply flex flex-col gap-y-3 mt-2;
+
+      .action_button {
+        @apply flex flex-col items-start gap-y-3 pt-3 border-t;
+      }
+    }
+  }
+}

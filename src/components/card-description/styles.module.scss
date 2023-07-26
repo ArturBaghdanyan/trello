@@ -1,0 +1,53 @@
+.description {
+  @apply w-full flex gap-x-3 text-start mt-5;
+
+    .child1 {
+      @apply flex;
+
+      > img {
+        @apply w-6 h-6;
+      }
+    }
+
+    .child2 {
+      @apply w-full flex flex-col self-center gap-y-3;
+      h2 {
+        @apply font-bold text-gray-700;
+      }
+
+      .description_title {
+        @apply flex items-center gap-x-4;
+        .edit {
+          @apply w-12 h-8 flex items-center justify-center bg-gray-200;
+        }
+        .edit_2 {
+          @apply hidden;
+        }
+      }
+
+      .open_el > .text {
+        @apply w-full h-60 rounded-sm;
+      }
+
+      .footer_text {
+        @apply flex gap-x-4 gap-y-4;
+
+        .button_save {
+          @apply w-14 h-8 rounded-sm bg-blue-500 text-white;
+        }
+
+        .button_cancel {
+          @apply w-14 h-8 text-gray-800;
+        }
+
+        &:hover > .button_cancel {
+          @apply rounded-sm bg-gray-300;
+
+        }
+      }
+    }
+
+    .footer > button {
+      @apply w-full h-14 bg-gray-200 text-gray-500 rounded-md flex items-start p-2;
+    }
+  }

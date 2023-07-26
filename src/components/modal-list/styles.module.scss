@@ -1,0 +1,18 @@
+.menu {
+  @apply w-1/5 h-auto flex flex-col items-end relative;
+ .title {
+   @apply text-start mt-4 text-gray-600;
+ }
+  .menu_parent {
+    @apply flex flex-col;
+
+    .menu_child {
+      @apply w-40 h-8 flex justify-start gap-x-3 pl-2 items-center bg-gray-200 rounded-sm mt-3 cursor-pointer;
+
+      > img {
+        @apply w-4 h-4;
+      }
+
+    }
+  }
+}
