@@ -89,8 +89,7 @@ const LabelProvider: FC<LabelProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await request<{ [x: string]: ILabel }>('/labels');
-      return response;
+      return await request<{ [x: string]: ILabel }>('/labels');
     };
 
     getData()

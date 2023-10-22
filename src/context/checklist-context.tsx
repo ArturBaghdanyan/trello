@@ -35,8 +35,7 @@ const ChecklistProvider: FC<ChecklistProviderProps> = ({ children }) => {
   const [hasError, setHasError] = useState<boolean>(false);
 
   const findChecklistById = (id: string): IChecklist => {
-    const find = checklist.find(el => el.id === id) as IChecklist;
-    return find;
+    return checklist.find(el => el.id === id) as IChecklist;
   };
 
   const editChecklist = async (id: string, title: string) => {

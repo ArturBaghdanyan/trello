@@ -55,6 +55,7 @@ const LabelsCard: FC<LabelsCardProps> = props => {
           placeholder="Search labels"
           onChange={inputHandler}
           value={inputText}
+          id="mySearch"
         />
       </div>
       <h2>Labels</h2>

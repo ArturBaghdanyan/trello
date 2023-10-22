@@ -1,5 +1,6 @@
 .container {
-  @apply absolute inset-x-0 bottom-6 w-80 bg-white p-4 shadow-lg rounded-sm cursor-pointer;
+  @apply absolute inset-x-0 bottom-[-145px] w-80 bg-white 
+         p-4 shadow-lg rounded-sm cursor-pointer mr-10;
 
   .labels_header {
     @apply flex items-center justify-between;

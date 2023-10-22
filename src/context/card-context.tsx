@@ -48,14 +48,19 @@ const CardProvider: FC<CardProviderProps> = ({ children }) => {
   };
 
   const deleteCardById = (id: string) => {
+    console.log('delete card', id);
     const index = cards.findIndex(el => el.id === id);
-    console.log('index', index);
     if (index !== -1) {
       cards.splice(index, 1);
       return true;
     }
     return false;
   };
+
+  // const deleteCardById = (id: string) => {
+  //   console.log('delete card', id);
+  //   setCards(cards => cards.filter(card => card.id !== id));
+  // };
 
   const getCardById = async (id: string): Promise<ICard> => {
     const response = await request<ICard>(`/cards/${id}`);
@@ -244,8 +249,7 @@ const CardProvider: FC<CardProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await request<{ [x: string]: ICard }>('/cards');
-      return response;
+      return await request<{ [x: string]: ICard }>('/cards');
     };
 
     getData()

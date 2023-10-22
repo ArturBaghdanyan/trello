@@ -48,7 +48,7 @@ const Column: FC<ColumnProps> = props => {
                 {...dropProvided.droppableProps}
               >
                 {column.cards.map((id, index) => (
-                  <Card key={id} cardId={id} index={index} />
+                  <Card key={index} cardId={id} index={index} />
                 ))}
                 {dropProvided.placeholder}
               </div>
@@ -56,7 +56,10 @@ const Column: FC<ColumnProps> = props => {
           </Droppable>
           <ColumnFooter id={column.id} />
           {isColumnMenuOpen && (
-            <ColumnHeaderMenu handleMenuState={handleMenuState} />
+            <ColumnHeaderMenu
+              handleMenuState={handleMenuState}
+              columnId={column.id}
+            />
           )}
         </div>
       )}

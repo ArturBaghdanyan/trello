@@ -8,15 +8,16 @@ import styles from './styles.module.scss';
 
 type ColumnHeaderMenuProps = {
   handleMenuState: () => void;
+  columnId: string;
 };
 
-const ColumnHeaderMenu: FC<ColumnHeaderMenuProps> = ({ handleMenuState }) => {
-  const { columns, setColumns } = useBoard();
+const ColumnHeaderMenu: FC<ColumnHeaderMenuProps> = ({
+  handleMenuState,
+  columnId,
+}) => {
+  const { deleteColumn, getColumnById } = useBoard();
 
-  function deleteColumn(id: string) {
-    setColumns(columns.filter(el => el.id !== id));
-  }
-
+  const currentColumn = getColumnById(columnId);
   return (
     <menu className={styles.menu}>
       <div className={styles.wrapper}>
@@ -37,9 +38,11 @@ const ColumnHeaderMenu: FC<ColumnHeaderMenuProps> = ({ handleMenuState }) => {
                   </div>
                 ))}
               </div>
-              <button onClick={() => deleteColumn(el.id)}>delete card</button>
             </div>
           ))}
+          <button onClick={() => deleteColumn(currentColumn.id)}>
+            delete column
+          </button>
         </div>
       </div>
     </menu>

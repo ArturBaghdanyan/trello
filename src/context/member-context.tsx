@@ -62,8 +62,7 @@ const MemberProvider: FC<memberProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await request<{ [x: string]: IMember }>('/members');
-      return response;
+      return await request<{ [x: string]: IMember }>('/members');
     };
 
     getData()

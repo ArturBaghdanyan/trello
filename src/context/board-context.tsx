@@ -22,6 +22,7 @@ type BoardType = {
   isLoaded: boolean;
   hasError: boolean;
   addNewColumn: (column: IColumn) => void;
+  deleteColumn: (id: string) => void;
   editColumnTitle: (id: string, title: string) => void;
   onAddNewCard: (columnId: string, cardId: string) => void;
   getColumnIdByCardId: (cardId: string) => {
@@ -52,8 +53,12 @@ const BoardProvider: FC<BoardProviderProps> = ({ children }) => {
   };
 
   const getColumnById = (id: string): IColumn => {
-    const currentColumn = columns.find(el => el.id === id) as IColumn;
-    return currentColumn;
+    return columns.find(el => el.id === id) as IColumn;
+  };
+
+  const deleteColumn = (id: string) => {
+    console.log('delete column', id);
+    setColumns(columns.filter(el => el.id !== id));
   };
 
   const onAddNewCard = async (columnId: string, cardId: string) => {
@@ -129,8 +134,7 @@ const BoardProvider: FC<BoardProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await request<{ [x: string]: IColumn }>('/columns');
-      return response;
+      return await request<{ [x: string]: IColumn }>('/columns');
     };
     getData()
       .then((response: { [x: string]: IColumn }) => {
@@ -156,6 +160,7 @@ const BoardProvider: FC<BoardProviderProps> = ({ children }) => {
         isLoaded,
         hasError,
         addNewColumn,
+        deleteColumn,
         editColumnTitle,
         onAddNewCard,
         getColumnIdByCardId,

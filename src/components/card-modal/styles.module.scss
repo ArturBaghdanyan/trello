@@ -1,5 +1,6 @@
 .overlay {
   @apply fixed inset-x-0 inset-y-0 z-20 bg-black/70 pt-12 w-full overflow-scroll;
+         
 .container {
   @apply max-w-full w-[48rem] bg-gray-100 shadow-lg rounded-md mx-auto p-6 flex flex-col;
 

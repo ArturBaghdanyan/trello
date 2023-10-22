@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6134777-72a0-4e67-9318-b9a2bcbccf84" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/context/board-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/board-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/card-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/card-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/checklist-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/checklist-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/label-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/label-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/member-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/member-context.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="labels-card" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LlmpM2bEp130jW2v67Apaj2RAi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/WebSite/Projects/trello",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Dell\\OneDrive\\Рабочий стол\\trello-exercise\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\WebSite\\Projects\\trello\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\assets\checklist_icon" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\assets\labels" />
+      <recent name="C:\Users\Dell\OneDrive\Рабочий стол\trello-exercise\src\components\move-card" />
+      <recent name="C:\Users\Dell\OneDrive\Рабочий стол\trello-exercise\src\assets\card-modal_icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\components\labels_card" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\components\labels_card\label-color" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\components\labels_card\edit-label" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\components\labels_card\card-notification" />
+      <recent name="C:\WebSite\CircusCodes\trello-exercise\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6134777-72a0-4e67-9318-b9a2bcbccf84" name="Changes" comment="" />
+      <created>1676454224512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676454224512</updated>
+      <workItem from="1676454229181" duration="12345000" />
+      <workItem from="1676544962063" duration="10956000" />
+      <workItem from="1676623720160" duration="12066000" />
+      <workItem from="1676878636146" duration="16037000" />
+      <workItem from="1676970251236" duration="14924000" />
+      <workItem from="1677053342628" duration="7444000" />
+      <workItem from="1677072526913" duration="6389000" />
+      <workItem from="1677137609993" duration="19236000" />
+      <workItem from="1677225991266" duration="9613000" />
+      <workItem from="1677483223582" duration="5378000" />
+      <workItem from="1677500199976" duration="28000" />
+      <workItem from="1677575266827" duration="16470000" />
+      <workItem from="1677659638293" duration="6638000" />
+      <workItem from="1677744561512" duration="5210000" />
+      <workItem from="1677751806172" duration="2818000" />
+      <workItem from="1677759001476" duration="816000" />
+      <workItem from="1677773583900" duration="1058000" />
+      <workItem from="1677827798522" duration="14375000" />
+      <workItem from="1678085091761" duration="11307000" />
+      <workItem from="1678175423436" duration="5403000" />
+      <workItem from="1678347612932" duration="8207000" />
+      <workItem from="1678437064101" duration="17840000" />
+      <workItem from="1678465699707" duration="3502000" />
+      <workItem from="1678609573351" duration="3414000" />
+      <workItem from="1678702946770" duration="1690000" />
+      <workItem from="1678707670238" duration="6742000" />
+      <workItem from="1678777617784" duration="1895000" />
+      <workItem from="1678865638243" duration="2352000" />
+      <workItem from="1678885072089" duration="5859000" />
+      <workItem from="1678964255097" duration="8053000" />
+      <workItem from="1679038273356" duration="12578000" />
+      <workItem from="1679065624895" duration="1368000" />
+      <workItem from="1679214014074" duration="72000" />
+      <workItem from="1679304190641" duration="10878000" />
+      <workItem from="1679385819470" duration="13171000" />
+      <workItem from="1679473174504" duration="8690000" />
+      <workItem from="1679573375268" duration="2121000" />
+      <workItem from="1679644999762" duration="595000" />
+      <workItem from="1679901111479" duration="13614000" />
+      <workItem from="1679997059039" duration="5047000" />
+      <workItem from="1680076131651" duration="17779000" />
+      <workItem from="1680172353812" duration="1002000" />
+      <workItem from="1680179235721" duration="4328000" />
+      <workItem from="1680189214300" duration="262000" />
+      <workItem from="1680249698266" duration="4327000" />
+      <workItem from="1680526028418" duration="9536000" />
+      <workItem from="1680593755808" duration="8592000" />
+      <workItem from="1680682612669" duration="15426000" />
+      <workItem from="1680852794602" duration="21208000" />
+      <workItem from="1681048289572" duration="4037000" />
+      <workItem from="1681131130145" duration="11660000" />
+      <workItem from="1681199327446" duration="7050000" />
+      <workItem from="1681285331352" duration="17995000" />
+      <workItem from="1681379650283" duration="13700000" />
+      <workItem from="1681738224789" duration="189000" />
+      <workItem from="1681903810567" duration="3384000" />
+      <workItem from="1681917137271" duration="1117000" />
+      <workItem from="1681977784088" duration="2200000" />
+      <workItem from="1682066785037" duration="6810000" />
+      <workItem from="1682406743145" duration="4187000" />
+      <workItem from="1682506327024" duration="5734000" />
+      <workItem from="1682595992815" duration="5992000" />
+      <workItem from="1682670799901" duration="3000" />
+      <workItem from="1682670870335" duration="9196000" />
+      <workItem from="1683012279043" duration="8266000" />
+      <workItem from="1683117633122" duration="7154000" />
+      <workItem from="1683542771264" duration="8769000" />
+      <workItem from="1683708404507" duration="6075000" />
+      <workItem from="1683876992739" duration="12935000" />
+      <workItem from="1683911811063" duration="145000" />
+      <workItem from="1684056561680" duration="4842000" />
+      <workItem from="1684075736956" duration="5441000" />
+      <workItem from="1684249629118" duration="8716000" />
+      <workItem from="1684310713999" duration="6321000" />
+      <workItem from="1684335231907" duration="2000" />
+      <workItem from="1684335268524" duration="1558000" />
+      <workItem from="1684482401353" duration="5171000" />
+      <workItem from="1684741352210" duration="7606000" />
+      <workItem from="1684842174240" duration="5899000" />
+      <workItem from="1685000058665" duration="6292000" />
+      <workItem from="1685087966542" duration="1639000" />
+      <workItem from="1685281891378" duration="164000" />
+      <workItem from="1685354350695" duration="5987000" />
+      <workItem from="1685429948308" duration="3922000" />
+      <workItem from="1685527128238" duration="16960000" />
+      <workItem from="1685623761816" duration="481000" />
+      <workItem from="1685972516336" duration="1176000" />
+      <workItem from="1686038906680" duration="908000" />
+      <workItem from="1686125104177" duration="2326000" />
+      <workItem from="1686210933830" duration="1272000" />
+      <workItem from="1686214834439" duration="4000" />
+      <workItem from="1686215236373" duration="3384000" />
+      <workItem from="1686302331820" duration="4928000" />
+      <workItem from="1686643344195" duration="5148000" />
+      <workItem from="1686727920993" duration="4089000" />
+      <workItem from="1686750202435" duration="2427000" />
+      <workItem from="1686770556567" duration="5013000" />
+      <workItem from="1686808742392" duration="6000" />
+      <workItem from="1686809517279" duration="4427000" />
+      <workItem from="1686817618515" duration="3726000" />
+      <workItem from="1686913322517" duration="5000" />
+      <workItem from="1687003243638" duration="4231000" />
+      <workItem from="1687247181759" duration="5500000" />
+      <workItem from="1687505618942" duration="651000" />
+      <workItem from="1687762369016" duration="2641000" />
+      <workItem from="1687852636674" duration="2815000" />
+      <workItem from="1687939521634" duration="28000" />
+      <workItem from="1688457889521" duration="835000" />
+      <workItem from="1688630585551" duration="1559000" />
+      <workItem from="1688886690228" duration="6157000" />
+      <workItem from="1689062683334" duration="5648000" />
+      <workItem from="1689088544266" duration="642000" />
+      <workItem from="1689161275050" duration="1547000" />
+      <workItem from="1689688686892" duration="2421000" />
+      <workItem from="1690354744233" duration="188000" />
+      <workItem from="1690355564531" duration="556000" />
+      <workItem from="1690357844859" duration="3429000" />
+      <workItem from="1691077194819" duration="1245000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1676468107605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676468107605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>

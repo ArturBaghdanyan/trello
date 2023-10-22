@@ -19,7 +19,7 @@ export const AddColumnForm: FC<AddColumnFormProps> = ({ onAdd }) => {
   return (
     <form onSubmit={onSubmit}>
       <input type="text" value={text} onChange={e => setText(e.target.value)} />
-      <button>Add Another List</button>
+      <button style={{ color: 'white' }}>Add Another List</button>
     </form>
   );
 };
